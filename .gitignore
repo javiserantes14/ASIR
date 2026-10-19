@@ -1,0 +1,48 @@
+﻿# Sistema operativo Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editores
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.log
+*.swp
+
+# Credenciales y secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+
+# Bases de datos y volcados
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql.gz
+
+# Máquinas virtuales
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.qcow2
+*.iso
+
+# Archivos comprimidos y copias de seguridad
+*.zip
+*.7z
+*.rar
